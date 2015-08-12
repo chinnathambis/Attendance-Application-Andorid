@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image1" >
+
+    <EditText
+        android:id="@+id/cid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        android:ems="10" 
+        android:hint="Course Id" />
+
+    <EditText
+        android:id="@+id/cname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/course_id"
+        android:ems="10"
+        android:hint="Course Name" >
+<requestFocus />
+</EditText>
+    <Button
+        android:id="@+id/registerc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/cid"
+        android:text="Register Course" />
+
+    <Button
+        android:id="@+id/vcourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="23dp"
+        android:text="View Courses" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Already Registered" />
+
+    <Button
+        android:id="@+id/delete_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/vcourse"
+        android:text="Delete All Courses" />
+
+    </RelativeLayout>
+    
+    <!--  ScrollView>
+   android:id="@+id/scrollView1"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_alignParentBottom="true"
+   android:layout_alignParentLeft="true"
+   android:layout_alignParentRight="true"
+   android:layout_below="@+id/vcourse" >
+   
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <TextView android:id="@+id/textView2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:textSize="20sp"/>
+  </LinearLayout>
+ </ScrollView -->
+    
+
+
